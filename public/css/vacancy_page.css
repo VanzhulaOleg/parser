@@ -1,0 +1,132 @@
+#prlx_lyr_1{
+    position:fixed;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuerjaJ2k25OJXXsK6bKwMIXozMQRZq_U0ZPdGze-jYuzZVL20QA') no-repeat 0px 200px;
+    width:100%;
+    height:800px;
+}
+#prlx_lyr_2{
+    position:fixed;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGqpKhwwL_Q6EhwWhZA0cF-qhkh_cXDbWF8eZDyyywVfO_76C') no-repeat 600px 400px;
+    width:100%;
+    height:1000px;
+}
+#content_layer{ position:absolute;
+width: 100%;
+height: 100%}
+
+#btnBack {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 5%;
+    left: 2%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #086A87;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    opacity: 0.8;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px #999;
+}
+
+#btnBack:hover {
+    background-color: #094759;
+    box-shadow: 0 3px #999;
+}
+
+.layer {
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 85%;
+    background: white;
+    opacity: 0.8;
+    color: black;
+    border: 1px solid #adb5bd;
+}
+
+
+.vacName {
+    position: relative;
+    overflow: revert;
+    opacity: 1;
+    text-align: left;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.branchName {
+    font-size: 22px;
+    font-weight: normal;
+    color: #6c757d;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.companyName {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #385d7a;
+    font-weight: bold;
+
+
+}
+
+.cityName {
+    font-size: 20px;
+    margin-left: 15px;
+    font-style: initial;
+    color: black;
+
+}
+
+.companyImg {
+    margin-left: 50%;
+}
+
+#companyRow {
+    height: 3%;
+}
+
+.salery {
+    font-size: 22px;
+    margin-left: 70%;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.saleryEmpty {
+    font-size: 18px;
+    margin-left: 40%;
+
+}
+
+.data {
+    font-size: 16px;
+    margin-left: 72%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.description {
+    width: 100%;
+    background: white;
+    margin-top: 20px;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    overflow: auto;
+    color: #5a6268;
+}
+
+

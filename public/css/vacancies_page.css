@@ -1,0 +1,202 @@
+
+#prlx_lyr_1{
+    position:fixed;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbYkECCeJ2MYLqL4dysDD0BHTM9T8QjhVL3xX86i-mXgGIVwKxqw') no-repeat 0px 200px;
+    background-size: 5%;
+    width:100%;
+    height:800px;
+}
+
+#content_layer{ position:absolute; }
+
+.container{
+    max-width: 100%;
+}
+
+.countPage {
+    margin: auto;
+    width: 20%;
+    padding: 2px;
+}
+.total {
+    padding: 2px 0;
+    margin-left: 5px;
+    font-family: Ebrima;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #E98A44, 0 0 30px #E98A44, 0 0 40px #053067, 0 0 70px #053067, 0 0 80px #053067, 0 0 100px #053067, 0 0 150px #053067;}
+
+
+#adress {font-size:18px; text-shadow:2px 2px 5px red,-2px -2px 5px yellow;color: #040505;
+}
+.header{
+    background: #ffffff;
+    position: revert; /* Fixed/sticky position */
+    height: 30px;
+    width: 100%;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+#dropdownMenuLink {
+    /*margin: auto;*/
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer; /* not necessary for Bootstrap */
+    color: black;
+    background: white;
+    padding: 0px;
+    border: white;
+}
+
+.list-group {
+    margin-top: 4px;
+    margin-bottom: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #adb5bd;
+}
+
+.layer {
+    height: 25%;
+    margin-top: 1%;
+    opacity: 0.9;
+    margin-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 99%;
+    background: white;
+    color: black;
+}
+
+#bottomRow {
+    height: 55px;
+
+}
+
+.description {
+    /*width: 100%;*/
+    /*background: white;*/
+    /*margin-top: 10px;*/
+    /*font-size: 16px;*/
+    /*resize: none;*/
+    /*display: block;*/
+    /*overflow: auto;*/
+    /*color: #5a6268;*/
+
+    max-height: 100px;
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    overflow: hidden;
+    color: #5a6268;
+}
+
+.vacName {
+    position: relative;
+    overflow: revert;
+    opacity: 1;
+    text-align: left;
+    font-size: 22px;
+    z-index: 1;
+
+}
+
+.branchName {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.companyName {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #086A87;
+    font-weight: bold;
+
+}
+
+.cityName {
+    font-size: 18px;
+    margin-left: 15px;
+    font-style: revert;
+    color: black;
+}
+
+.companyImg {
+    max-height: 55px;
+}
+
+.salery {
+    font-size: 20px;
+    margin-left: 40%;
+    font-weight: normal;
+}
+
+.saleryEmpty {
+    font-size: 18px;
+    margin-left: 40%;
+
+}
+
+.data {
+    font-size: 14px;
+    margin-left: 40%;
+    font-style: oblique;
+    font-weight: inherit;
+}
+
+.line {
+    height: 1px;
+    background: #adb5bd;
+    margin-top: 15px;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+#myBtnTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    height: 40px;
+    width: 40px;
+    bottom: 4%;
+    right: 4%;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #086A87;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    /*opacity: 0.9;*/
+    border-radius: 50%; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    font-weight: bold;
+    box-shadow: 0 4px #999;
+}
+
+#myBtnTop:hover {
+    background-color: #094759; /* Add a dark-grey background on hover */
+    box-shadow: 0 3px #999;
+}
+
+.paginat {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
